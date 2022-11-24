@@ -12,3 +12,31 @@ main {
     display: flex;
     flex-direction: column;
 }
+
+<<<<<<< HEAD
+
+h1, h2, h3, h4, h5,p, ul {
+    @include killBootstrap;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8vh;
+    background-color: black;
+}
+
+h1, h2, h3, h4, h5, h6, p, blockquote, a, span {
+=======
+footer {
+    background-color: black;
+}
+
+i {
+>>>>>>> 4eee7f8c4322d4dd0f5f08d61f134fc551421ecb
+    color: white;
+}
