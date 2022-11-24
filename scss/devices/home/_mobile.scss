@@ -1,5 +1,17 @@
 
+    h1, h2, h3, h4, h5,p, ul {
+        @include killBootstrap;
+    }
 
+    a {
+        text-decoration: none;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        row-gap: 8vh;
+    }
     // NAV START 
 
     nav {
@@ -120,5 +132,66 @@
             }
         }
 
+    }
+
+    .architecture {
+    @include flexContent(column, center, center, 4vh, 0);
+
+    > h2 {
+        font-weight: 600;
+    }
+
+    > section {
+        @include flexColumn;
+        width: 80%;
+        row-gap: 2vh;
+    };
+}
+
+    .legality {
+        @include flexContent(column, center, center, 4vh, 0);
+
+        > h2 {
+            font-weight: 600;
+        }
+
+        > section {
+            @include flexColumn;
+            row-gap: 4vh;
+            width: 100%;
+
+            > ul {
+                @include killBootstrap;
+                width: 80%;
+            }
+
+            li {
+                list-style-type: none;
+                width: 100%;
+
+                a {
+                    @include fixInline;
+                    padding-top: 1vh;
+                    padding-bottom: 1vh;
+                }
+            }
+
+            li:nth-child(odd) {
+                background-color: gainsboro;
+            }
+        }
+
+        > article {
+            @include flexContent(column, center, center, 4vh, 0);
+            
+            > h3 {
+                padding-bottom: 3vh;
+            }
+        }
+
+        aside {
+            width: 90%;
+            @include flexContent(column, center, left, 3vh, 0)
+        }
     }
 
