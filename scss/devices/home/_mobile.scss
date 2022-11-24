@@ -168,3 +168,150 @@
 
     }
 
+    .architecture {
+        @include flexContent(column, center, center, 4vh, 0);
+    
+        > h2 {
+            font-weight: 600;
+        }
+    
+        > section {
+            @include flexColumn;
+            width: 80%;
+            row-gap: 2vh;
+        };
+    }
+    
+    .legality {
+        @include flexContent(column, center, center, 4vh, 0);
+
+        > h2 {
+            font-weight: 600;
+        }
+
+        > section {
+            @include flexColumn;
+            row-gap: 4vh;
+            width: 100%;
+
+            > ul {
+                @include killBootstrap;
+                width: 80%;
+            }
+
+            li {
+                list-style-type: none;
+                width: 100%;
+
+                a {
+                    @include fixInline;
+                    padding-top: 1vh;
+                    padding-bottom: 1vh;
+                }
+            }
+
+            li:nth-child(odd) {
+                background-color: $defaultColor;
+            }
+
+            li:nth-child(odd) > a {
+                color: black;
+            }
+        }
+
+        > article {
+            @include flexContent(column, center, center, 4vh, 0);
+            
+            > h3 {
+                padding-bottom: 3vh;
+            }
+        }
+
+        aside {
+            width: 90%;
+            @include flexContent(column, center, left, 3vh, 0)
+        }
+    }
+    
+    .contact {
+        @include flexColumn;
+
+        > h2,
+        label,
+        input::placeholder,
+        textarea::placeholder,
+        input,
+        textarea {
+            color: $defaultColor;
+        }
+
+        > form {
+            display: flex;
+            flex-direction: column;
+            row-gap: 2vh;
+            width: 90%;
+        }
+
+        aside {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            width: 20%;
+            font-size: 14px;
+        }
+
+        textarea {
+            height: 30vh;
+            padding: 1vh;
+            padding-left: 3vh;
+            border: .5px solid $defaultColor;
+            background-color: black;
+        }
+
+        [type="submit"] {
+            width: 25%;
+            text-align: center;
+            padding: 0;
+            padding-top: 2vh;
+            padding-bottom: 2vh;
+            background-color: $defaultColor;
+            transition: .4s;
+        }
+
+        [type="submit"]:hover {
+            color: $defaultColor;
+            background-color: black;
+        }
+
+        input {
+            width: 100%;
+            padding: 1vh;
+            padding-left: 3vh;
+            border: .5px solid $defaultColor;
+            background-color: black;
+        }
+    }
+
+    footer {
+        height: 50vh;
+        @include flexContent(row, center, center, 0, 30%);
+
+        > a {
+            @include flexColumn;
+            padding: 2vh;
+            color: white;
+        }
+
+        > article {
+            @include flexContent(column, center, flex-start, 2vh, 0);
+            padding: 2vh;
+        }
+
+        h4 {
+            font-size: 20px;
+        }
+    }
+    
+
