@@ -286,14 +286,24 @@
 
     .architecture {
         @include flexContent(column, center, center, 4vh, 0);
+
+        h2, h3, p {
+            color: white;
+        }
     
         > h2 {
-            font-weight: 600;
+        }
+
+        h3 {
+            font-size: 20px;
+            color: $defaultColor;
+            border-bottom: 2px solid $defaultColor;
         }
     
         > section {
             @include flexColumn;
             width: 80%;
+            align-items: flex-start;
             row-gap: 2vh;
         };
     }
@@ -301,8 +311,14 @@
     .legality {
         @include flexContent(column, center, center, 4vh, 0);
 
-        > h2 {
-            font-weight: 600;
+        h2, h3, p, a {
+            color: white;
+        }
+
+        h4 {
+            width: 25%;
+            color: $defaultColor;
+            border-bottom: 2px solid $defaultColor;
         }
 
         > section {
@@ -323,14 +339,12 @@
                     @include fixInline;
                     padding-top: 1vh;
                     padding-bottom: 1vh;
+                    color: $defaultColor;
                 }
             }
 
-            li:nth-child(odd) {
-                background-color: $defaultColor;
-            }
-
             li:nth-child(odd) > a {
+                background-color: $defaultColor;
                 color: black;
             }
         }
