@@ -219,7 +219,9 @@
         > h2,
         label,
         input::placeholder,
-        textarea::placeholder {
+        textarea::placeholder,
+        input,
+        textarea {
             color: $defaultColor;
         }
 
