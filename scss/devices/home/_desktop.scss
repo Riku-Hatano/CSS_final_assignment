@@ -28,7 +28,7 @@ nav {
         display: flex;
         justify-content: space-between;
         padding: 0%;
-        width: 40%;
+        width: 50%;
         background:none;            
         // border: 1px solid red;
 
@@ -48,8 +48,9 @@ nav {
         color: $defaultColor;
         background:none;
         font-weight: 300;
-        font-size: 18px;
-        padding: 1.5vh;                                      
+        font-size: 16px;
+        padding: 1.5vh;
+        // border: 1px solid red;                                      
     }
 
     ul a:hover {
@@ -87,9 +88,9 @@ header {
     
 
     article {
-        display: flex;
-        flex-wrap: wrap;
-        align-content: center;        
+
+        align-content: center;
+        border: 1px solid red;        
 
     }
 
