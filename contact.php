@@ -19,7 +19,7 @@
     </article>
   </header>
   <main>
-    <section class="definition" id="definition">
+    <section class="definitionC" id="definitionC">
       <h2>More info of Definition</h2>
       <p>
         Cryptocurrency is only dealt as electric data, and it doesn't have compulsion supported by nation (Technically, El Salvador adopted Bitcoin as a legal tender.)
@@ -48,7 +48,7 @@
         </article>
       </section>
     </section>
-    <section class="history" id="history">
+    <section class="historyC" id="historyC">
       <h2>More info for History</h2>
       <section>
         <article>
@@ -89,7 +89,7 @@
         </article>
       </section>
     </section>
-    <section class="architecture" id="architecture">
+    <section class="architectureC" id="architectureC">
       <h2>More info of Architecture</h2>
       <section>
         <article>
@@ -127,7 +127,7 @@
         </article>
       </section>
     </section>
-    <section class="legality" id="legality">
+    <section class="legalityC" id="legalityC">
       <h2>More info of Leagality</h2>
       <article>
         <h3>US</h3>
@@ -182,10 +182,10 @@
   echo <<<EOM
   <script type="text/javascript">
   let interest = {$json_interest};
-  console.log(definition);
   for (let i = 0 ; i < interest.length ; i++) {
     let section = document.getElementById(interest[i])
     section.style.display = "flex";
+    console.log(interest[i]);
   }
   </script>;
   EOM;
