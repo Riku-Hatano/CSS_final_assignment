@@ -125,6 +125,7 @@
                 text-align: center;
                 background-color: rgba(0,0,0,0.5);
                 // border: 1px solid red;
+                
 
                 
 
@@ -166,10 +167,12 @@
         flex-direction: column;
         align-items: center;
         row-gap: 8vh;
+        // border: 1px solid red;
 
         blockquote {
 
-            display: flex;            
+            display: flex; 
+            align-items: center;           
             justify-content: center;
             text-align: center;            
             padding: 2vh;            
@@ -190,27 +193,28 @@
         }
 
         article {
-            display: flex;
+
+            display: flex;            
             flex-direction: column;
-            align-items: center;
-            row-gap: 2vh;
+            align-items: center;            
+            row-gap: 10vh;
             width: 80%;
             // border: 1px solid red;
 
             p {
                 color: white;
                 text-align: justify;
-                width: 80%;
+                width: 90%;
                 // border: 1px solid red;
             }
         }
 
         video {
 
-            width: 80%;
-            height: 80%;
+            width: 90%;
+            height: 99%;
             // border: 1px solid red;
-            border-radius: 10px;
+            border-radius: 50%;
         }
 
     }
@@ -244,7 +248,7 @@
 
             display: flex;             
             flex-wrap: wrap;
-            gap: 15vh;           
+            gap: 20vh;           
             justify-content: center;
             align-items: center;
             // border: 1px solid red;
@@ -253,7 +257,8 @@
 
         article > figure {
             display: flex;
-            flex-direction: column;            
+            flex-direction: column;  
+            justify-content: center;             
             row-gap: 5vh;
             color: white;            
             width: 80%;
@@ -277,6 +282,8 @@
             small {
                 font-style: italic;
             }
+
+          
         }        
     }
 
@@ -287,8 +294,8 @@
             color: white;
         }
     
-        > h2 {
-        }
+        // > h2 {
+        // }
 
         h3 {
             font-size: 20px;
