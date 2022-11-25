@@ -1,0 +1,19 @@
+h1 {
+    color: $defaultColor;
+}
+
+p, blockquote{
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.unhidden {
+    display: flex;
+}
+
+.definitionC, .historyC, .architectureC, .legalityC {
+    display: none;
+}

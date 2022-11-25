@@ -176,19 +176,20 @@
       <section>
         <h3>Blockchain</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel esse quod nihil et! Repellendus quis voluptatum, eaque laudantium, animi doloremque odit blanditiis sit vero illum dolorem? Molestiae eum doloribus aperiam, similique dolor eos quidem suscipit voluptatibus, omnis quia, blanditiis accusantium!
+          Blockchain is the way of managing data. It is the rule of register the data and saved data properly. Because the data of Blockchain is located dispersedly, it is stronger than cracking comparing to conventional database. 
         </p>
+
       </section>
       <section>
         <h3>Nodes</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed recusandae mollitia harum, sequi, ad quasi dignissimos cupiditate quisquam quis magni hic architecto explicabo. Ex, officiis quidem. Enim consequatur sed repellat?
+          Node is a computer devivce joined in the network of cryptocurrency. It can be smartphone, tablet, PC and so on. 
         </p>
       </section>
       <section>
         <h3>Mining</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, illo nulla. Sint in hic unde dolorum, illum ipsum? Quaerat dicta unde possimus, nostrum accusamus voluptates sint nam enim culpa eveniet.
+          Mining is getting curyptocurrency. We can get curyptocurrency with our PC by contributing to the calculate.
         </p>
       </section>
     </section>
@@ -266,7 +267,7 @@
         <aside>
           <h4>UK</h4>
           <p>
-            About UK, it take a positon agree with using of cryptocurrency comparing to other countries. 
+           About UK, the posture for cryptocurrency is iffy. The country didn't take any restriction. It looks like approval. But on the other hand, it didn't take specific law for now.
           </p>
         </aside>
       </article>
@@ -275,19 +276,55 @@
     <!-- CONTACT RIKU  -->
     <section class="contact" id="contact">
       <h2>Contact us</h2>
-      <form>
+      <form action="contact.php" method="POST">
         <aside>
           <label for="name">Your Name: </label>
-          <input type="text" name="name" id="name" placeholder="Your Name">
+          <input type="text" name="name" id="name" placeholder="Your Name" required>
         </aside>
         <aside>
           <label for="email">Email Address: </label>
-          <input type="email" name="email" id="email" placeholder="Email Address">
+          <input type="email" name="email" id="email" placeholder="Email Address" required>
         </aside>
         <aside>
           <label for="message">Message: </label>
           <textarea name="message" id="message" placeholder="Ask Anything"></textarea>
         </aside>
+        <aside class="checkbox">
+          <label for="definition">
+            definition
+            <input type="checkbox" name="interest[]" value="definitionC">
+          </label>
+          <label for="history">
+            history
+            <input type="checkbox" name="interest[]" value="historyC">
+          </label>
+          <label for="architecture">
+            architecture
+            <input type="checkbox" name="interest[]" value="architectureC">
+          </label>
+          <label for="legality">
+            legality
+            <input type="checkbox" name="interest[]" value="legalityC">
+          </label>
+        </aside>
+        <!-- <aside class="checkbox">
+          <label for="definition">
+            definition
+            <input type="checkbox" name="definition">
+          </label>
+          <label for="history">
+            history
+            <input type="checkbox" name="history">
+          </label>
+          <label for="architecture">
+            architecture
+            <input type="checkbox" name="architecture">
+          </label>
+          <label for="legality">
+            legality
+            <input type="checkbox" name="legality">
+          </label>
+        </aside> -->
         <aside>
           <input type="submit" value="Submit">
         </aside>
