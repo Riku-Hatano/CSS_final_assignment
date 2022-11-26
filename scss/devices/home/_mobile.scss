@@ -291,7 +291,6 @@
         }        
     }
 
-
     .architecture {
         @include flexContent(column, center, center, 4vh, 0);
 
@@ -371,7 +370,7 @@
             background-repeat: no-repeat;
         }
         aside:nth-child(3) {
-            background-image: url("/img/pic2.jpg");
+            background-image: url("/img/china.png");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;

@@ -8,12 +8,40 @@
     <title>contact</title>
 </head>
 <body>
+<nav>
+  <article class="desnav">
+    <h1>CRYPTO</h1>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#definition">Definition</a></li>
+        <li><a href="#history">History</a></li>
+        <li><a href="#architecture">Architecture</a></li>
+        <li><a href="#legality">Legality</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="marketplace.html">NFT'S</a></li>                        
+      </ul>
+  </article>
+  <aside id="mobnav">
+    <h2>CRYPTO</h2>
+    <details id="mobdes">
+      <summary class="fa-solid fa-bars"></summary>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#definition">Definition</a></li>
+        <li><a href="#history">History</a></li>
+        <li><a href="#architecture">Architecture</a></li>
+        <li><a href="#legality">Legality</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="marketplace.html">NFT'S</a></li>                      
+      </ul>
+    </details>
+  </aside>
+  </nav>
   <header>
     <video src="/video/video2.mp4" autoplay loop muted></video>
     <article>
       <blockquote>
         <h1>Cryptocurrencies</h1>
-        <q>The currency of the future</q>
       </blockquote>
       <a href="#">Learn more</a>
     </article>
@@ -129,6 +157,7 @@
     <section class="legalityC" id="legalityC">
       <h2>More info of Leagality</h2>
       <article>
+        <span></span>
         <h3>US</h3>
         <p>
           As homepage mentioned, not all of states of US is legal. On the contrary, only five out of fifty states is legal.  
@@ -141,6 +170,7 @@
         </p>
       </article>
       <article>
+        <span></span>
         <h3>China</h3>
         <p>
           In China, the posture for cryptocurrency is totally strict.
@@ -167,7 +197,7 @@
         </aside>
       </article>
       <a href="#">
-        <i class="fa-solid fa-angle-up"></i>
+        <i class="fa-solid fa-angle-up" id="top"></i>
         top
       </a>
   </footer>
