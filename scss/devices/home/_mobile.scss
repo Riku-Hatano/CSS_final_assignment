@@ -1,6 +1,7 @@
 
 
     // NAV START 
+
     nav {
         
         h1 {
@@ -74,7 +75,7 @@
             }
         }
     }
-    
+
     // NAV END 
     // HEADER START 
 
@@ -218,6 +219,7 @@
         }
 
     }
+    
     // DEFINTION END
     // HISTORY START 
 
@@ -286,6 +288,7 @@
           
         }        
     }
+
 
     .architecture {
         @include flexContent(column, center, center, 4vh, 0);
@@ -422,6 +425,14 @@
             background-color: black;
         }
 
+        [type="checkbox"] {
+            width: 15px;
+            height: 15px;
+        }
+
+       
+           
+        }
         input {
             width: 100%;
             padding: 1vh;
