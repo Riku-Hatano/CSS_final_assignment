@@ -1,7 +1,9 @@
 
 
     // NAV START 
-
+    .img {
+        width: 100%;
+    }
     nav {
         
         h1 {
@@ -398,6 +400,7 @@
     
     .contact {
         @include flexColumn;
+        width: 80%;
 
         > h2,
         label,
