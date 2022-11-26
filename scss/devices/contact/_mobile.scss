@@ -17,3 +17,130 @@ p, blockquote{
 .definitionC, .historyC, .architectureC, .legalityC {
     display: none;
 }
+
+
+
+
+
+
+main {
+    @include flexContent(column, center, center, 15vh, 0);
+    padding-top: 6vh;
+}
+
+h1, h2, h3 {
+    color: $defaultColor;
+}
+
+p, blockquote, span, a {
+    color: whitesmoke;
+    line-height: 1.5;
+}
+
+.hidden {
+    display: none;
+}
+
+.unhidden {
+    display: flex;
+}
+
+.definitionC, .historyC, .architectureC, .legalityC {
+    display: none;
+    flex-direction: column;
+}
+
+.desnav {
+    display: none;
+}
+
+nav {
+    position: relative;
+}
+
+#mobdet {
+    padding: 0;
+}
+
+#mobnav {
+    position: fixed;
+    width: 90%;
+    padding: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+
+    > ul {
+        width: 100%;
+    }
+
+    li {
+        padding: 0;
+        width: 100%;
+    }
+
+    a {
+        display: flex;
+        width: 95%;
+        height: 100%;
+    }
+}
+
+.definitionC,
+.historyC,
+.architectureC,
+.legalityC {
+    @include flexContent(column, center, center, 6vh, 0);
+    width: 80%;
+}
+
+.definitionC {
+    blockquote {
+        text-align: left;
+    }
+
+    span {
+        font-weight: 600;
+        color: $defaultColor;
+        font-size: 20px;
+        padding-right: 2vh;
+    }
+
+    > section {
+        @include flexContent(column, center, center, 2vh, 0);
+    }
+
+    article {
+        @include flexContent(column, center, center, 2vh, 0);
+
+    }
+}
+
+.historyC {
+    > section {
+        display: flex;
+        flex-direction: column;
+        row-gap: 5vh;
+    }
+
+    h3 {
+        padding-bottom: 2vh;
+    }
+}
+
+.architectureC {
+    > section {
+        @include flexContent(column, center, center, 4vh, 0);
+    }
+
+    h3 {
+        padding-bottom: 1vh;
+    }
+}
+
+.legalityC {
+    > section {
+        @include flexContent(column, center, center, 4vh, 0);
+    }
+}

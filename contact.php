@@ -28,24 +28,23 @@
         <h3>definition from Wikipedia</h3>
         <article>
           <blockquote>
-            1.The system does not require a central authority: its state is maintained through distributed consensus.
+            <span>1.</span>The system does not require a central authority: its state is maintained through distributed consensus.
           </blockquote>
           <blockquote>
-            2.The system keeps an overview of cryptocurrency units and their ownership.
+            <span>2.</span>The system keeps an overview of cryptocurrency units and their ownership.
           </blockquote>
           <blockquote>
-            3.The system defines whether new cryptocurrency units can be created. If new cryptocurrnecy units can be created, the system defines teh circumstances of tehir origin and how to determine the ownership of these new units.
+            <span>3.</span>The system defines whether new cryptocurrency units can be created. If new cryptocurrnecy units can be created, the system defines teh circumstances of tehir origin and how to determine the ownership of these new units.
           </blockquote>
           <blockquote>
-            4.Ownership of cryptocurrency units can be proved exclusively cryptographically.
+            <span>4.</span>Ownership of cryptocurrency units can be proved exclusively cryptographically.
           </blockquote>
           <blockquote>
-            5.The system allows transactions to be performed in which ownership of the cryptographic units is changed. A transaction statement can only be issued by an entity proving the current ownership of these units.
+            <span>5.</span>The system allows transactions to be performed in which ownership of the cryptographic units is changed. A transaction statement can only be issued by an entity proving the current ownership of these units.
           </blockquote>
           <blockquote>
-            6.If two different instructions for changing the ownership of the same cryptographic units are simultaneously entered, the system performs at most one of them.
+            <span>6.</span>If two different instructions for changing the ownership of the same cryptographic units are simultaneously entered, the system performs at most one of them.
           </pblockquote
-        </article>
       </section>
     </section>
     <section class="historyC" id="historyC">
