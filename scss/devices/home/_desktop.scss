@@ -110,3 +110,54 @@ header {
 
 
 }
+
+.crypto {
+}
+
+.architecture {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 10vh;
+    column-gap: 3%;
+
+    h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    > section {
+        width: 27%;
+    }
+}
+
+.legality {
+    > article {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        column-gap: 3%;
+        row-gap: 10vh;
+
+        h3 {
+            width: 100%;
+            text-align: center;
+        }
+
+        > aside {
+            width: 27%;
+        }
+    }
+}
+
+.contact {
+    .checkbox {
+        width: 60%;
+    }
+
+    [type="submit"] {
+        width: 20%;
+    }
+}
