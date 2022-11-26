@@ -1,6 +1,7 @@
 
 
     // NAV START 
+
     nav {
         
         h1 {
@@ -74,7 +75,7 @@
             }
         }
     }
-    
+
     // NAV END 
     // HEADER START 
 
@@ -218,6 +219,7 @@
         }
 
     }
+    
     // DEFINTION END
     // HISTORY START 
 
@@ -287,13 +289,6 @@
         }        
     }
 
-    .crypto {
-        img {
-            min-width: 200px;
-            height: 200px;
-            width: 100%;
-        }
-    }
 
     .architecture {
         @include flexContent(column, center, center, 4vh, 0);
@@ -459,6 +454,10 @@
             height: 15px;
         }
 
+
+       
+           
+
         .checkbox {
             display: flex;
             flex-wrap: wrap;
@@ -469,6 +468,7 @@
                 align-items: center;
                 column-gap: 1vh;
             }
+
         }
         input {
             width: 100%;
