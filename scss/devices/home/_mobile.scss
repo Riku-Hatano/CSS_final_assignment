@@ -287,6 +287,14 @@
         }        
     }
 
+    .crypto {
+        img {
+            min-width: 200px;
+            height: 200px;
+            width: 100%;
+        }
+    }
+
     .architecture {
         @include flexContent(column, center, center, 4vh, 0);
 
