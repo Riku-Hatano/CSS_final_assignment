@@ -84,24 +84,38 @@ header {
 
     background-image: url(/img/pic10.jpg);
     background-size: cover;
+    background-attachment: fixed;
     background-position: 50% 30%;
     
 
-    article {
+    > article {
 
-        align-content: center;
-        border: 1px solid red;        
-
-    }
-
-    article figure {
-        display: flex;
-        align-items: center;
-        width: 20%;        
-        border: 1px solid red;
-
+        align-items: flex-start;
+        height: auto;        
+        // border: 1px solid red; 
         
+        figure {
+            display: flex;
+            align-items: center;
+            width: 20%; 
+            border-radius: 20px;
+            background-color: rgba(0,0,0,0.5);    
+
+
+            figcaption {
+
+                p {
+                    background: none;
+                    padding: 2vh;
+                }
+
+            }
+    
+        }    
+
     }
+
+    
 
     article figure img {
         height: 20vh;
