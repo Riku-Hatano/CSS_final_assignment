@@ -1,0 +1,29 @@
+.legality {    
+    section > ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        li {
+            width: 45%;
+        }
+    }
+
+    article {
+        width: 80%;
+    }
+}
+
+.contact {
+    form {
+        width: 80%;
+    }
+
+    .checkbox {
+        width: 80%;
+    }
+
+    [type="submit"] {
+        width: 30%;
+    }
+}
