@@ -1,3 +1,4 @@
+// NAV START 
 nav {
 
     display: flex;
@@ -28,7 +29,7 @@ nav {
         display: flex;
         justify-content: space-between;
         padding: 0%;
-        width: 40%;
+        width: 65%;
         background:none;            
         // border: 1px solid red;
 
@@ -36,8 +37,8 @@ nav {
 
     ul > li {
         
-        list-style-type: none;                
-        
+        list-style-type: none;   
+        width: 100%;                            
         // border: 1px solid red;  
     }
 
@@ -48,8 +49,10 @@ nav {
         color: $defaultColor;
         background:none;
         font-weight: 300;
-        font-size: 18px;
-        padding: 1.5vh;                                      
+        font-size: 15px;
+        padding: 1.5vh;        
+        // border: 1px solid red;      
+
     }
 
     ul a:hover {
@@ -64,6 +67,8 @@ nav {
     }
 }
 
+// NAV END 
+// HEADER START 
 header {
     height: 50vh;
 
@@ -78,29 +83,45 @@ header {
 
     }
 }
+// HEADER END 
+// HISTORY START 
 
 .history {
 
     background-image: url(/img/pic10.jpg);
     background-size: cover;
+    background-attachment: fixed;
     background-position: 50% 30%;
     
 
-    article {
-        display: flex;
-        flex-wrap: wrap;
-        align-content: center;        
+    > article {
 
-    }
-
-    article figure {
-        display: flex;
-        align-items: center;
-        width: 20%;        
-        border: 1px solid red;
-
+        align-items: flex-start;
+        height: auto;        
+        // border: 1px solid red; 
         
+        figure {
+            display: flex;
+            align-items: center;
+            width: 20%; 
+            border-radius: 20px;
+            background-color: rgba(0,0,0,0.5);    
+
+
+            figcaption {
+
+                p {
+                    background: none;
+                    padding: 2vh;
+                }
+
+            }
+    
+        }    
+
     }
+
+    
 
     article figure img {
         height: 20vh;
@@ -108,4 +129,60 @@ header {
     }
 
 
+}
+
+.crypto {
+
+
+    p {
+        background-color: aqua;
+    }
+}
+
+.architecture {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 10vh;
+    column-gap: 3%;
+
+    h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    > section {
+        width: 27%;
+    }
+}
+
+.legality {
+    > article {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        column-gap: 3%;
+        row-gap: 10vh;
+
+        h3 {
+            width: 100%;
+            text-align: center;
+        }
+
+        > aside {
+            width: 27%;
+        }
+    }
+}
+
+.contact {
+    .checkbox {
+        width: 60%;
+    }
+
+    [type="submit"] {
+        width: 20%;
+    }
 }

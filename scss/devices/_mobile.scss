@@ -1,4 +1,4 @@
-@media (min-width: 200px) {
+@media (min-width: $mediaSizeMob) {
     @import "home/mobile";
     @import "contact/mobile";
 }
